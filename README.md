@@ -1,8 +1,19 @@
 **AI Codebase Knowledge Graph**
-
+---
 An interactive developer tool that analyzes a Python codebase and converts it into a knowledge graph showing relationships between files, functions, and modules. The system visualizes software architecture, detects dependencies, and provides AI-assisted exploration of the codebase.
 
 This tool helps developers understand large projects quickly, explore dependencies, and analyze the impact of code changes.
+
+## Key Capabilities
+
+- Static code analysis using Python AST
+- Knowledge graph generation for code relationships
+- Interactive dependency visualization
+- Architecture explanation and risk analysis
+- Circular dependency detection
+- Dependency heatmap and architecture layers
+- AI-assisted codebase queries
+- Code change impact analysis
 
 ## Demo Workflow
 
@@ -343,3 +354,26 @@ Ajay Sainath
 
 AI Codebase Knowledge Graph
 Static analysis and software architecture exploration tool.
+
+## Why This Project
+
+Understanding large codebases is a common challenge in software development.
+
+This project demonstrates how static code analysis and graph modeling can help developers:
+
+- visualize architecture
+- detect hidden dependencies
+- analyze the impact of code changes
+- explore complex systems interactively
+
+The tool combines AST parsing, graph algorithms, and interactive visualization to provide insights into software architecture.
+
+## Future Improvements
+
+Possible future enhancements include:
+
+- support for multiple programming languages
+- advanced AI architecture explanations
+- clickable node inspection in the graph
+- GitHub repository integration
+- architecture pattern detection
