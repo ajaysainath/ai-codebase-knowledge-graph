@@ -4,6 +4,20 @@ An interactive developer tool that analyzes a Python codebase and converts it in
 
 This tool helps developers understand large projects quickly, explore dependencies, and analyze the impact of code changes.
 
+## Demo Workflow
+
+1. Upload a Python project or provide a project path.
+2. Click **Analyze Codebase**.
+3. The system builds a knowledge graph of the codebase.
+4. Explore the architecture using the interactive graph.
+5. Use the AI assistant to query the codebase.
+6. Inspect dependencies, risks, and architecture layers.
+
+Example analysis output:
+
+sample.py → imports → database  
+create_user → calls → database.save_user
+
 **Overview**
 
 Modern software systems contain many interconnected modules. Understanding how components interact can be difficult when reading raw source code.
